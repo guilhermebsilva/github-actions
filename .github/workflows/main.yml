@@ -19,3 +19,9 @@ jobs:
 
       - name: Execute Python Script
         run: python3 teste.py
+
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/
